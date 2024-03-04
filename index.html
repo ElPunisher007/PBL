@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An info page on penguins">
+    <meta name="keywords">
+    <meta name="author">
+
+    <!-- Links to css and javascript -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Load script after loading html -->
+    <script src="script.js" defer></script>
+
+    <title>We are Brogrammers We are family</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div id="header-fadeout"></div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Brogrammers</h1>
+        <!-- About Section -->
+        <div class="section">
+            <h2>About</h2>
+            <p>
+                Welcome to Brogrammer's website.Brogrammers is a group of some peoples who are changing the world.
+            </p>
+            <figure>
+                <img src="./images/brogrammers.jpg" alt="An image of brogrammers">
+                <figcaption>
+                    <article class="italic">Fig 1 - brogrammers</article><br>
+                    <a href="https://youtu.be/hkoKKAZQEYk" target="_blank">Source</a>
+                </figcaption>
+            </figure>
+        </div>
+
+        <!-- Natural Habitat Section -->
+        <div class="section">
+            <h2>Who are we</h2>
+            <p>
+                We are a dynamic group of passionate programmers united by a common love for turning ideas into reality
+                through the art of coding.
+                In our collaborative space, lines of code transform into innovative solutions, and challenges become
+                opportunities for growth.
+            </p>
+            <figure>
+                <img src="./images/dynamicgroup.jpg" alt="An image of passionate programmers">
+                <figcaption>
+                    <article class="italic">Fig 2 - A group programmers</article><br>
+                    <a href="https://untamedanimals.com/can-penguins-live-in-warm-weather/" target="_blank">Source</a>
+                </figcaption>
+            </figure>
+        </div>
+
+        <!-- Species Section -->
+        <div class="section">
+            <h2>Gamers</h2>
+            <p>
+                There are alot of games we play. According to
+                <a href="https://www.gamesradar.com/best-fps-games/." target="_blank">FPS games</a>,
+                There are total 25 games but we mostly play valorant csgo and cs2.
+            </p>
+        </div>
+
+        <!-- Photo Slideshow for species section -->
+        <div class="photo-slideshow">
+
+            <!-- Slideshow buttons -->
+            <!-- TODO: When clicked, call the plusSlides() function -->
+            <a class="prev" onclick="plusSlides(-1)">&#8592;</a>
+            <a class="next" onclick="plusSlides(1)">&#8594;</a>
+
+            <!-- Slideshow images -->
+            <ul>
+                <li class="slide fade-in">
+                    <figure>
+                        <img src="./images/species-pg/valorant.jpeg" alt="valorant">
+                        <figcaption>
+                            <article class="italic">valorant</article> (16/18)<br>
+                            <a href="https://playvalorant.com/en-gb/" target="_blank">Source</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="slide fade-in">
+                    <figure>
+                        <img src="./images/species-pg/csgo.jpeg" alt="csgo">
+                        <figcaption>
+                            <article class="italic">csgo</article> (17/18)<br>
+                            <a href="https://store.steampowered.com/app/730/CounterStrike_2/" target="_blank">Source</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="slide fade-in">
+                    <figure>
+                        <img src="./images/species-pg/cs2.jpeg" alt="cs2">
+                        <figcaption>
+                            <article class="italic">cs2</article> (18/18)<br>
+                            <a href="https://store.steampowered.com/app/730/CounterStrike_2/" target="_blank">Source</a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Colony Life Section -->
+        <div class="section">
+            <h2>What is valorant</h2>
+            <p>
+                Valorant, developed and published by Riot Games, is a highly acclaimed tactical first-person shooter
+                that combines intense gunplay with unique agent abilities.
+                Released in 2020, it quickly gained popularity for its strategic gameplay, precise gun mechanics, and
+                engaging team dynamics.
+            </p>
+            <figure>
+                <img src="./images/valo.jpg" alt="valorant is one of the best fps online game">
+                <figcaption>
+                    <article class="italic">Fig 3 - valorant is one of the best fps online game</article><br>
+                    <a href="https://playvalorant.com/en-gb/" target="_blank">Source</a>
+                </figcaption>
+            </figure>
+        </div>
+
+        <!-- Fun Facts Section -->
+        <div class="section">
+            <h2>Members of Brogrammers</h2>
+            <ul>
+                <li>
+                    punisher.
+                </li>
+                <li>
+                    yeager.
+                </li>
+                <li>
+                    big brother.
+                </li>
+                <li>
+                    badass deepya.
+                </li>
+                <li>
+                    nigroo.
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <!-- Added bottom margin for page since main is relatively positioned -->
+    <div id="bottom-margin"></div>
+
+</body>
+
+</html>
